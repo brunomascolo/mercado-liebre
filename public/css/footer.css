@@ -1,0 +1,53 @@
+:root {
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris_oscuro: #666;
+    --Gris_claro: #ebebeb;
+    --Verde: #39b54a;    
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+.info{
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+
+.info p{
+    font-size: 14px;
+}
+
+.iconos{
+    font-size: 35px;
+    color: var(--Celeste)
+}
+
+
+@media(min-width:361px){
+    footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .info{
+        width: 40%;
+    }
+
+}
+
+@media(min-width:769px){
+    .info{
+        width: 25%;
+    }
+    
+}
