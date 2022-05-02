@@ -1,0 +1,4 @@
+1. Como centrar el subtitulo de compra en cuotas en el header?
+2.En vista de tablet al limite del minimo se me encima el texto con el icono de buscar
+3. En vista tablet se me encima el descuento con el precio
+4. Alinear a la izquierda los titulos ofertas y ultimas ofertas
