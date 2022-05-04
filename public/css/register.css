@@ -1,0 +1,43 @@
+:root {
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris_oscuro: #666;
+    --Gris_claro: #ebebeb;
+    --Verde: #39b54a;    
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+main{
+    background-color: var(--Gris_claro);
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos{
+    width: 80%;
+    margin: 20px;
+    font-weight: 500;
+}
+
+.listas{    
+    margin: 15px;
+}
+
+.botones{
+    width: 40%;
+    margin: 10px;
+} 
+
+
+
+
