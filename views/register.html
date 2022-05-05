@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado Liebre</title>
+    <title>Registrarme</title>
 </head>
 <body>
     <header>        
@@ -36,7 +36,7 @@
         </div>
         <div class="lista">
             <li><a href="">Crea tu cuenta <i class="fa-solid fa-address-card"></i></a></li>
-            <li><a href="">Ingresa <i class="fa-solid fa-right-to-bracket"></i></a></li>
+            <li><a href="/login">Ingresa <i class="fa-solid fa-right-to-bracket"></i></a></li>
             <li><a href="">Mis Compras <i class="fa-solid fa-basket-shopping"></i></a></li>
         </div>  
     </div>              
@@ -46,13 +46,13 @@
             <div>
                 <h2>Registrarme</h2>
                 <label for="register">
-                    <input type="text" id="name" name="register" placeholder="Nombre y apellido" class="textos">
+                    <input type="text" id="name" name="register" placeholder="  Nombre y apellido" class="textos" minlength="3">
                 </label>
                 <label for="register">
-                    <input type="text" id="user" name="register" placeholder="Nombre de usuario" class="textos">
+                    <input type="text" id="user" name="register" placeholder="  Nombre de usuario" class="textos" minlength="5">
                 </label>
                 <label for="register">
-                    <input type="email" id="email" name="register" placeholder="Email" class="textos">
+                    <input type="email" id="email" name="register" placeholder="  Email" class="textos">
                 </label>
             </div>
             <div>
@@ -61,7 +61,7 @@
                     <input type="date" id="birth" name="register" class="textos">
                 </label>
                 <label for="register">
-                    <input type="text" id="address" name="register" placeholder="Domicilio" class="textos">
+                    <input type="text" id="address" name="register" placeholder="  Domicilio" class="textos" minlength="5">
                 </label>
             </div>
             <div>
@@ -111,11 +111,11 @@
             <div>
                 <h3>Contraseña</h3>
                 <label for="register">
-                    <input type="password" name="register" id="password" placeholder="Contraseña" class="textos">
+                    <input type="password" name="register" id="password" placeholder="  Contraseña" class="textos" minlength="8">
                 </label>
                 
                 <label for="register">
-                    <input type="password" name="register" id="confirm_password" placeholder="Repetir contraseña" class="textos">
+                    <input type="password" name="register" id="confirm_password" placeholder="  Repetir contraseña" class="textos" minlength="8">
                 </label>
             </div>
             <div>

@@ -31,28 +31,22 @@ main{
     border: var(--Gris_claro);
 }
 
-.listas{    
-    margin: 15px;
-    height: auto;
-}
-
 .botones{
-    width: 40%;
-    margin: 10px;
+    width: 80%;
+    margin: 20px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+    border: blue;
+    font-size: 14px;
+    font-weight: 600;
 } 
 
 input{
     height: 30px;
 }
 
-#buyer{
-    height: auto;
+button{
+    height: 30px;
 }
-
-#seller{
-    height: auto;
-}
-
-
-
-
