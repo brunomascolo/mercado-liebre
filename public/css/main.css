@@ -12,12 +12,14 @@ main{
     width: 90%;
     padding: 15px;
     margin: auto;
+    position: relative;
 }
 
 .titulo{
     font-weight: 700;
     color: var(--Gris_oscuro);
-    text-align: center;
+    position: relative;
+    left: 30px ;
 }
 
 .imgProducto{
@@ -48,7 +50,8 @@ main{
     font-weight: 600;
     font-size: 18px;
     margin-top: 2px;
-    width: 70%;
+    position: relative;
+    left: 25px;
 }
 
 .precio{
@@ -71,12 +74,15 @@ main{
     border: solid 1px var(--Verde);
     border-radius: 28px;
     padding: 2.5%;
+    background-color: white;
 }
 
 .iconoEnvioPosicion{
    display: flex;
    flex-direction: row-reverse;
    margin-right: 10px;
+   position: relative;
+   top: -17px;
 }
 
 .descripcion{
