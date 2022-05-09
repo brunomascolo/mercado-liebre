@@ -113,12 +113,16 @@ main{
 @media(min-width:769px){
     .articulo{
         width: 20%;
+        box-shadow: none;
     }
     .descripcion{
         display: none;
     }
     article:hover .descripcion{
         display: flex;
+    }
+    .articulo:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
         
 }
