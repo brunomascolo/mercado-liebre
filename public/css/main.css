@@ -77,12 +77,18 @@ main{
     background-color: white;
 }
 
+
 .iconoEnvioPosicion{
    display: flex;
    flex-direction: row-reverse;
    margin-right: 10px;
    position: relative;
    top: -17px;
+  
+}
+
+.iconoEnvio:hover{
+    transform: rotate(270deg);
 }
 
 .descripcion{
@@ -91,6 +97,7 @@ main{
     flex-wrap: wrap;
     margin-top: 5px;
     margin-left: 15px;
+    transition: all 450ms;
 
 }
 
@@ -107,6 +114,13 @@ main{
     .articulo{
         width: 20%;
     }
+    .descripcion{
+        display: none;
+    }
+    article:hover .descripcion{
+        display: flex;
+    }
+        
 }
 
 
