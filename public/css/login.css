@@ -41,7 +41,12 @@ main{
     border: blue;
     font-size: 14px;
     font-weight: 600;
+    transition: all 450ms;
 } 
+
+.botones:hover{
+    background-color: #0022AA;
+}
 
 main input{
     height: 30px;
