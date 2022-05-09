@@ -115,10 +115,10 @@ main{
         width: 20%;
         box-shadow: none;
     }
-    .descripcion{
+    .articulo h5{
         display: none;
     }
-    article:hover .descripcion{
+    article:hover h5{
         display: flex;
     }
     .articulo:hover{
